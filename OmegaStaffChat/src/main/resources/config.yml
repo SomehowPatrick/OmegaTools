@@ -1,0 +1,31 @@
+#
+# OmegaStaffChat by UnknownBanana
+# Version: 1.0
+# Support Discord: https://discord.gg/Hahv5RKWxf
+#
+
+# configure permissions
+permissions:
+
+  # permission required to use the staffchat command
+  use_permission: "omegastaffchat.use"
+
+  # permission required to see the staffchat
+  see_permission: "omegastaffchat.see"
+
+# configure chat related things
+chat:
+
+  # the format used to display the text
+  # placeholders:
+  # %player% : the player sending the message
+  # %message% : the message itself
+  format: "&c&lSTAFF &7| &a%player% &7» &e%message%"
+
+  # send when a player doesnt have the use_permission
+  no_permission: "&cNothing to see here!"
+
+  # send when a player with the right permission has a wrong
+  # usage of the command
+  wrong_arguments: "&cPlease use &e/staffchat <message>&c!"
+
